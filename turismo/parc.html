@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style-parc.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Teresópolis - Parc Magique</title>
+    </head>
+    
+    <body>
+        <h1>Parc Magique (Le Canton)</h1>
+        <!-- Voltar pra home / Botão -->
+        <div>
+            <a href="turismo.html">
+                <button>
+                    <i class="fa fa-home"></i> Home
+                </button>
+            </a>
+        </div>
+        
+        <h2>Imagens do parque</h2>
+
+    <!-- Slides -->
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+
+            <div class="slide s1">
+                <img src="./assets/parc1.png" alt="Castelo no parc magique">
+            </div>
+            <div class="slide s2">
+                <img src="./assets/parc3.png" alt="Carrinho bate-bate">
+            </div>
+            <div class="slide s3">
+                <img src="./assets/parc4.png" alt="Espaço de cama elástica gigante">
+            </div>
+            <div class="slide s4">
+                <img src="./assets/parc2.png" alt="Circuito de trenzinho infantil">
+            </div>
+        </div>
+        <div class="navigation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+        </div>
+    </div>
+    
+    <!-- Rodapé -->
+    <div id="footer">
+        <h2 class="sobre"> Sobre: </h2>
+    
+        <article class="article">
+            O <b>Parc Magique</b> é localizado em Vargem Grande - Teresópolis, dentro do resort <b>Le Canton</b>, que é o único 
+            resort do Brasil que conta com um parque de diversões coberto uma das principais atrações para 
+            crianças na Região Serrana do Rio. Com decoração medieval, o parque oferece variedade de atrações, 
+            com cerca de 15 brinquedos, além de locais para alimentação e loja com lembranças do lugar. Entre os 
+            destaques, estão a roda gigante, barco viking infantil, duas salas de realidade virtual de última 
+            geração com mais de 90 jogos diferentes, um simulador de montanha russa, e a Just Jump, cama elástica 
+            gigante, com 120 metros quadrados.
+        </article>
+
+        <!-- Mapa / Google maps -->
+        <div class="mapa">
+            <h2 class="mapa-title"> Localização </h2>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1844.5775370528966!2d-42.856577066251326!3d-22.385510666219975!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9835fbc374a65b%3A0xff134c7147948dac!2sParc%20Magique!5e0!3m2!1spt-BR!2sbr!4v1670081314091!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br />
+        </div>
+    </div>
+</body>
+</html>

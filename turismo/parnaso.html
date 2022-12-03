@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style-parnaso.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Teresópolis - Parnaso</title>
+    </head>
+    
+    <body>
+        <h1>Parnaso (Parque Nacional da Serra dos Orgãos)</h1>
+        <!-- Voltar pra home / Botão -->
+        <div>
+            <a href="turismo.html">
+                <button>
+                    <i class="fa fa-home"></i> Home
+                </button>
+            </a>
+        </div>
+        
+        <h2>Imagens da Parque</h2>
+
+    <!-- Slides -->
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+
+            <div class="slide s1">
+                <img src="./assets/parnaso1.png" alt="Dedo de Deus">
+            </div>
+            <div class="slide s4">
+                <img src="./assets/parnaso2.png" alt="Trilha em meio à floresta">
+            </div>
+            <div class="slide s2">
+                <img src="./assets/parnaso4.png" alt="Espaço com vista pro Dedo de Deus">
+            </div>
+            <div class="slide s3">
+                <img src="./assets/parnaso3.png" alt="Piscina dentro do Parnaso">
+            </div>
+        </div>
+        <div class="navigation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+        </div>
+    </div>
+    
+    <!-- Rodapé -->
+    <div id="footer">
+        <h2 class="sobre"> Sobre: </h2>
+    
+        <article class="article">
+            O <b>Parque Nacional da Serra dos Órgãos</b> foi criado em 30 de novembro de 1939 como o 
+            terceiro parque nacional do Brasil. Ele é uma unidade de conservação situada no maciço da 
+            Serra dos Órgãos, abrangendo os municípios de Guapimirim, Magé, Petrópolis e Teresópolis, 
+            com uma área de 20 030 ha. É aberto para visitação permanente. É administrado pelo 
+            <b>Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)</b>.
+            Normalmente de maio a setembro é aberta a temporada de montanhismo, com aventureiros de 
+            toda parte buscando o contato direto com a natureza. O principal roteiro é a <b>Travessia 
+            Petrópolis-Teresópolis</b>, que exige três dias e é considerada a caminhada mais bonita do 
+            Brasil. O nome do parque deriva da semelhança dos picos da serra com os tubos de órgãos de 
+            igreja, derivando daí o nome <b>Serra dos Órgãos</b>.
+        </article>
+
+        <!-- Mapa / Google maps -->
+        <div class="mapa">
+            <h2 class="mapa-title"> Localização </h2>
+            <iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d460.93553967448963!2d-42.983574686560196!3d-22.44842732165254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99b2fc4e7ae71d%3A0xa560f33c6b47710e!2sParque%20Nacional%20da%20Serra%20dos%20%C3%93rg%C3%A3os%20-%20PARNASO%20-%20Sede%20Teres%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1670090906074!5m2!1spt-BR!2sbr style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br />
+        </div>
+    </div>
+</body>
+</html>
