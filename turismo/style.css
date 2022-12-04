@@ -6,7 +6,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
     text-align: center;
 }
 
@@ -96,13 +95,5 @@ div.card{
     margin-right: 5px;
 }
 
-#conteudo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 100vh;
-    max-width: 400px;
-}
+
 
